@@ -1,0 +1,51 @@
+body  {
+    margin: auto;
+    margin-top: 150px;
+    width: 300px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+
+  #BotonModo {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(30, 30, 35);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+
+  .dark-mode {
+    background-color: rgb(30, 30, 35);
+    color: white;
+  }
+
+  .dark-mode #BotonModo {
+    background-color: white;
+    color: black;
+  }
+
+  
+  #troll {
+    font-size: 4px;
+    color: red;
+  }
+
+ #parrafo {
+    font-size: 15px;
+    color: yellow;
+ }
+
+  .dark-mode #parrafo {
+    color: blue;
+  }
+
+  .dark-mode #troll {
+    color: green;
+  }
